@@ -16,10 +16,10 @@ The dataset contains housing data for various districts in California. Each row 
  - Visulizations to understand relationships between variables and housing prices
 
 ## Challenges
- - Determining the best hyperparameters for the feedforward neural network was inititially difficult without a systematic approach.
- - Managing model overfitting required experimenting with regularization techniques like `dropout`.
- - Improving model performance on the Fashion MNIST dataset involved trial and error before applying hyperparameter tuning methods such as `GridSearchCV`.
- - Balancing training time and accuracy was a challenge when adjusting batch size and number of epochs. 
+ - Handling missing data and outliers in the California Housing dataset required careful preprocessing to ensure accurate analysis.
+ - Designing effective data transformations and normalization techniques to reveal meaningful patterns was complex.
+ - Visualizing the relationships between multiple variables while maintaining clarity posed some difficulties.
+ - The linear regression model showed a high mean squared error, likely due to outliers affecting the results, which made interpretation challenging. 
 
 ## Analysis and Insights
 From the initial analysis and transformations:
