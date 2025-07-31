@@ -15,6 +15,12 @@ The dataset contains housing data for various districts in California. Each row 
  - Use of libraries: **Pandas**, **NumPy**, and **Matplotlib**
  - Visulizations to understand relationships between variables and housing prices
 
+## Challenges
+ - Determining the best hyperparameters for the feedforward neural network was inititially difficult without a systematic approach.
+ - Managing model overfitting required experimenting with regularization techniques like `dropout`.
+ - Improving model performance on the Fashion MNIST dataset involved trial and error before applying hyperparameter tuning methods such as `GridSearchCV`.
+ - Balancing training time and accuracy was a challenge when adjusting batch size and number of epochs. 
+
 ## Analysis and Insights
 From the initial analysis and transformations:
  - Normalizing the **median income** and **total rooms** allowed for better identification of outliers. A normalized value of `0` indicates the mean, values `<0` are below average, and values `>0` are above average.
