@@ -17,7 +17,7 @@ The dataset contains housing data for various districts in California. Each row 
 
 ## Analysis and Insights
 From the initial analysis and transformations:
- - Normalizing the **median income** and **total rooms** allowed for better identification of outliers. A normalized value of 0 indicates the mean, values <0 are below average, and values >0 are above average.
+ - Normalizing the **median income** and **total rooms** allowed for better identification of outliers. A normalized value of `0` indicates the mean, values `<0` are below average, and values `>0` are above average.
  - Visualizations in Task 5 showed that **lower normalized median income** correlates with **cheaper homes**, while **mediacn or higher income** correlates with **more expensive homes**.
  - The **linear regression model** showed a high **mean squared error (MSE)**, likely due to outliers. However, the **R-squared score**, which is less sensitive to outliers, was between **0.50 and 0.99**, indicating a moderately good fit.
 These transformations and visualizations were essential for uncovering patterns in the data and evaluating the model's performance. 
