@@ -1,7 +1,7 @@
 # California Housing Data Analysis
 
 ## Overview
-This prokect analyzes the California Housing dataset using Python. The goal is to apply knowledge of Pandas and NumPy to perform data analysis and transformations. This assignment helps familizarize with essential data exploration techniques commonly used in deep learning and data science.
+This project analyzes the California Housing dataset using Python. The goal is to apply knowledge of Pandas and NumPy to perform data analysis and transformations. This assignment helps familizarize with essential data exploration techniques commonly used in deep learning and data science.
 
 ## Objective
 The objective of the assigment was to apply knowledge of **Pandas** and **NumPy** to perform data analysis and transformations on the California Housing dataset. The goal was to gain familiarity with essential data exploration techniques used in data science workflows.  
